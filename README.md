@@ -64,9 +64,14 @@ npm install express mongoose bcryptjs jsonwebtoken dotenv cors
 ```
 ## Running the Application
 --
-## frontend: npm start
---
-## backend: node server.js
+## frontend:
+```javascript
+npm start
+```
+## backend: 
+```javascript
+node server.js
+```
 ## Test Users
 --
 Email: test1@example.com, Password: password123
