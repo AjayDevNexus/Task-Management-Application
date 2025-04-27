@@ -41,9 +41,9 @@ A full-stack task management application built with React, Node.js, Express, Mon
 --
 # $ Prerequisites
 Node.js (v16 or higher)
---
+
 MongoDB ( MongoDB compass)
---
+
 ## Dependencies for Run Project
 ## frontend
 ```javascript
