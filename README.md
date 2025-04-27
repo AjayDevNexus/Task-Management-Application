@@ -39,28 +39,25 @@ A full-stack task management application built with React, Node.js, Express, Mon
 }
 ```
 --
-$ Prerequisites
+# $ Prerequisites
+Node.js (v16 or higher)
 --
-**Node.js (v16 or higher)**
---
-**MongoDB ( MongoDB compass)**
+MongoDB ( MongoDB compass)
 --
 ## Dependencies for Run Project
 ## frontend
 ```javascript
 npx create-react-app frontend
---
+
 npm install axios react-router-dom
 ```
 ## Backend
 ```javascript
 npm init -y
 npm install express mongoose bcryptjs jsonwebtoken dotenv cors
---
-** GENERATE JWT SECRET KEY **:
---
-**Terminal : node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"**
---
+
+GENERATE JWT SECRET KEY:
+Terminal : node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"**
 ```
 ## Running the Application
 ### frontend:
