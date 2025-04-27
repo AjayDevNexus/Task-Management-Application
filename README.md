@@ -37,6 +37,7 @@ A full-stack task management application built with React, Node.js, Express, Mon
   userId: ObjectId (ref: 'User', required),
   createdAt: Date (default: now)
 }
+```
 --
 $ Prerequisites
 --
