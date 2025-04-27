@@ -58,7 +58,7 @@ npm install express mongoose bcryptjs jsonwebtoken dotenv cors
 
 GENERATE JWT SECRET KEY:
 Terminal : node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"**
-``
+```
 ## Running the Application
 ### frontend:
 ```javascript
