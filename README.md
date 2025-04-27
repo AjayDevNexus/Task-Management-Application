@@ -47,30 +47,31 @@ $ Prerequisites
 --
 ## Dependencies for Run Project
 ## frontend
+```javascript
+npx create-react-app frontend
 --
-**npx create-react-app frontend**
---
-**npm install axios react-router-dom**
---
-# Backend
---
+npm install axios react-router-dom
+```
+## Backend
+```javascript
 npm init -y
---
 npm install express mongoose bcryptjs jsonwebtoken dotenv cors
 --
 ** GENERATE JWT SECRET KEY **:
 --
 **Terminal : node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"**
 --
+```
 ## Running the Application
 --
-frontend: npm start
+## frontend: npm start
 --
-backend: node server.js
+## backend: node server.js
 ## Test Users
 --
 Email: test1@example.com, Password: password123
 --
 Email: test2@example.com, Password: password123
+--
 
 
