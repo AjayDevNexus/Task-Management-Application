@@ -58,7 +58,7 @@ npm install express mongoose bcryptjs jsonwebtoken dotenv cors
 
 GENERATE JWT SECRET KEY:
 Terminal : node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"**
-```
+``
 ## Running the Application
 ### frontend:
 ```javascript
@@ -68,7 +68,13 @@ npm start
 ```javascript
 node server.js
 ```
-## Test Users
+## Test Users(seed.js)
+--
+note:before run this backend server run seed data
+```javascript
+node seed.js
+```
+
 ```javascript
 Email: test1@example.com, Password: password123
 Email: test2@example.com, Password: password123
