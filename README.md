@@ -79,5 +79,8 @@ node seed.js
 Email: test1@example.com, Password: password123
 Email: test2@example.com, Password: password123
 ```
+##deployed Website 🔗 
+--
+🔗:https://stately-bienenstitch-f02219.netlify.app/login
 
 
